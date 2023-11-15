@@ -564,22 +564,7 @@ footer .footer-bottom {
     }
 
     .banner .row .col-4 {
-        margin: 10px;
-    }
-    .banner .row .col-4 .banner-content {
-        top: 5%;
-        padding: 10px;
-    }
-    .banner .row .col-4 .banner-content h1{
-        font-size: 25px;
-    }
-    .banner .row .col-4 .banner-content p{
-        font-size: 25px;
-        margin-bottom: 40px;
-    }
-    .banner .row .col-4 .banner-content a{
-        padding: 15px;
-        font-size: 15px ;
+        display: none;
     }
     .category .row .col-5 {
         flex-basis: 15%;
@@ -591,6 +576,9 @@ footer .footer-bottom {
         margin: 5px;
     }
 
+    header .navbar {
+        position: relative;
+    }
     header .navbar nav {
         display: block;
         text-align: center;
@@ -606,7 +594,7 @@ footer .footer-bottom {
        margin: 7px;
     }
     .header-content {
-        padding: 200px 30px 10px ;
+        padding: 10px 30px 10px ;
     }
     .header-content p span {
         font-size: 20px;
